@@ -65,4 +65,75 @@ footer{background:#0a1630;color:var(--silver);font-size:.93rem;padding-block:34p
 footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px}
 footer strong{color:var(--white)}
 .tel{direction:ltr;unicode-bidi:isolate}
-.fab{position:fixed;inset-inline-start:18
+.fab{position:fixed;inset-inline-start:18px;bottom:18px;z-index:30;width:60px;height:60px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.28);color:#fff}
+.fab svg{width:32px;height:32px}
+@media (max-width:760px){
+.nav ul{display:none}
+.hero .wrap{grid-template-columns:1fr;padding-block:44px 56px}
+.drum{max-width:200px;order:-1;justify-self:start}
+.grid{grid-template-columns:1fr}
+.btn{flex:1 1 100%}
+section{padding-block:56px}
+.card{padding:24px 20px}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap nav">
+<a class="brand" href="#top">المهندس نجيب الخياطي</a>
+<ul><li><a href="#services">الخدمات</a></li><li><a href="#contact">التواصل</a></li></ul>
+<a class="call" href="tel:+966504388707">اتصال</a>
+</div></header>
+<main id="top">
+<div class="hero"><div class="wrap">
+<div>
+<p class="name">المهندس نجيب الخياطي | مهندس وفني معدات مغاسل</p>
+<h1>خبرة واحترافية في صيانة وتركيب معدات مغاسل الملابس</h1>
+<p class="lead">نقدم خدمات صيانة ونقل وتركيب وتجهيز معدات مغاسل الملابس، مع الاهتمام بجودة التنفيذ ودقة العمل.</p>
+<div class="btns">
+<a class="btn btn-wa wa" href="https://wa.me/966504388707" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg>تواصل عبر واتساب</a>
+<a class="btn btn-call" href="tel:+966504388707">اتصال مباشر</a>
+</div></div>
+<svg class="drum" viewBox="0 0 400 400" fill="none" stroke="#c9d1db" aria-hidden="true">
+<rect x="40" y="30" width="320" height="340" rx="28" stroke-width="2" opacity=".55"/>
+<circle cx="90" cy="76" r="9" stroke-width="2" opacity=".55"/>
+<line x1="130" y1="76" x2="230" y2="76" stroke-width="2" opacity=".35"/>
+<circle cx="200" cy="215" r="120" stroke-width="3" opacity=".8"/>
+<circle cx="200" cy="215" r="98" stroke="#7fc4e8" stroke-width="2" opacity=".9"/>
+<g class="spin" style="transform-origin:200px 215px" stroke="#7fc4e8" stroke-width="2" opacity=".55">
+<path d="M200 140a75 75 0 0 1 65 37.5"/><path d="M270 215a75 75 0 0 1-37.5 65"/><path d="M200 290a75 75 0 0 1-65-37.5"/><path d="M130 215a75 75 0 0 1 37.5-65"/>
+</g>
+<circle cx="200" cy="215" r="6" fill="#7fc4e8" stroke="none"/>
+</svg>
+</div></div>
+<section id="services"><div class="wrap">
+<h2>خدمات فني ومهندس معدات المغاسل</h2>
+<p class="sub">من صيانة المعدات إلى التركيب والتجهيز الكامل.</p>
+<div class="grid">
+<article class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a4 4 0 0 0-5.4 5.4L3 18l3 3 6.3-6.3a4 4 0 0 0 5.4-5.4l-2.7 2.7-2.5-.5-.5-2.5z"/></svg></div><div><h3>صيانة معدات المغاسل</h3><p>فحص وصيانة الغسالات والنشافات والمكابس والبويلرات ومعدات المغاسل.</p></div></article>
+<article class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M2 7h11v9H2zM13 10h4l3 3v3h-7z"/><circle cx="6" cy="18" r="1.8"/><circle cx="17" cy="18" r="1.8"/></svg></div><div><h3>فك ونقل وتركيب المعدات</h3><p>فك المعدات ونقلها وإعادة تركيبها في الموقع الجديد.</p></div></article>
+<article class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="3"/><circle cx="12" cy="13" r="4.5"/><path d="M8 6.5h.01M11 6.5h4"/></svg></div><div><h3>تركيب وتجهيز المغاسل</h3><p>تركيب المعدات وتجهيز المغاسل بما يتناسب مع احتياجات المشروع.</p></div></article>
+<article class="card"><div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V8l7-5 7 5v13M9 21v-6h6v6"/></svg></div><div><h3>تركيب ديكورات المغاسل</h3><p>تنفيذ وتركيب ديكورات المغاسل وتنظيم المساحات.</p></div></article>
+</div></div></section>
+<section id="contact" class="contact"><div class="wrap">
+<h2>تواصل مع المهندس نجيب</h2>
+<p>اكتب لنا على واتساب أو اتصل مباشرة، وسنرد عليك.</p>
+<a class="phone" href="tel:+966504388707">+966 50 438 8707</a>
+<div class="btns">
+<a class="btn btn-wa wa" href="https://wa.me/966504388707" target="_blank" rel="noopener">تواصل عبر واتساب</a>
+<a class="btn btn-call" href="tel:+966504388707">اتصال مباشر</a>
+</div></div></section>
+</main>
+<footer><div class="wrap">
+<div><strong>المهندس نجيب الخياطي</strong><br>فني صيانة معدات مغاسل ومهندس معدات مغاسل - الرياض</div>
+<div>للتواصل: <a class="tel" href="tel:+966504388707">+966 50 438 8707</a><br>© <span id="yr">2026</span> جميع الحقوق محفوظة</div>
+</div></footer>
+<a class="fab wa" href="https://wa.me/966504388707" target="_blank" rel="noopener" aria-label="تواصل عبر واتساب"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2z"/></svg></a>
+<script>
+var WA_MSG="السلام عليكم مهندس نجيب، وصلت إليكم عن طريق الموقع الإلكتروني، وأرغب في الاستفسار عن خدماتكم. أرجو التواصل معي.";
+var WA_URL="https://wa.me/966504388707?text="+encodeURIComponent(WA_MSG);
+document.querySelectorAll("a.wa").forEach(function(a){a.href=WA_URL});
+document.getElementById("yr").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
